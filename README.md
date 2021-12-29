@@ -21,3 +21,7 @@ Execute project code testing
 npm run test
 ```
 
+# Info about React Routes
+
+[Info](https://reactrouter.com/docs/en/v6)
+
