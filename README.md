@@ -25,3 +25,8 @@ npm run test
 
 [Info](https://reactrouter.com/docs/en/v6)
 
+# Info about Context API
+
+[Reference](https://pablomonteserin.com/curso/react/context-api/)
+[Youtube](https://www.youtube.com/watch?v=B0Nu3dmvXbg)
+
