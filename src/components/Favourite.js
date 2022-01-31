@@ -1,8 +1,10 @@
 import { useContext } from "react";
 import { AppContext } from "../application/provider";
 import PropTypes from "prop-types";
+import { useTranslation } from "react-i18next";
 export const Favourite = ({ selectPage }) => {
   const [state, setState] = useContext(AppContext);
+  const { t } = useTranslation("favourite");
   return (
     <>
       {!state.includes(selectPage) ? (
@@ -13,7 +15,7 @@ export const Favourite = ({ selectPage }) => {
             setState(newState);
           }}
         >
-          Añadir a favoritos
+          {t("add")}
         </button>
       ) : (
         <button
@@ -23,7 +25,7 @@ export const Favourite = ({ selectPage }) => {
             setState(newState);
           }}
         >
-          Eliminar de favoritos
+          {t("delete")}
         </button>
       )}
     </>

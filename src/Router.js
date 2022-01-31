@@ -1,5 +1,6 @@
 import React from "react";
 import loadable from "@loadable/component";
+import "./application/i18n"
 
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./core/components/Navbar";
